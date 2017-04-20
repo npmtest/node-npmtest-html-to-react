@@ -1,1 +1,39 @@
-{     "devDependencies": {         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-html-to-react",     "homepage": "https://github.com/npmtest/node-npmtest-html-to-react",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-html-to-react.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### basic test coverage for  [html-to-react (v1.2.7)](https://github.com/aknuds1/html-to-react)  [![npm package](https://img.shields.io/npm/v/npmtest-html-to-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-to-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-to-react.svg)](https://travis-ci.org/npmtest/node-npmtest-html-to-react)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-html-to-react",
+    "keywords": [
+        "coverage",
+        "test",
+        "html-to-react"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_html_to_react.js",
+    "name": "npmtest-html-to-react",
+    "nameAlias": "npmtest_html_to_react",
+    "nameOriginal": "npmtest-html-to-react",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-html-to-react.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
