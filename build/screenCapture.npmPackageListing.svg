@@ -1,20 +1,20 @@
 <svg height="270" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="270" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-20 14:35:23 +0000  1491564 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-20 14:35:23 +0000     6925 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-20 14:35:23 +0000     1079 bytes  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-20 14:35:23 +0000     6224 bytes  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-20 14:35:23 +0000  1449386 bytes  dist/html-to-react.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-20 14:35:23 +0000      460 bytes  index.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-20 14:35:23 +0000     5505 bytes  lib/camel-case-attribute-names.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-20 14:35:23 +0000      107 bytes  lib/is-valid-node-definitions.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-20 14:35:23 +0000     2335 bytes  lib/parser.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-20 14:35:23 +0000     1007 bytes  lib/process-node-definitions.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-20 14:35:23 +0000      510 bytes  lib/processing-instructions.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-20 14:35:23 +0000      144 bytes  lib/should-process-node-definitions.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-20 14:35:23 +0000     1570 bytes  lib/utils.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-20 14:35:23 +0000     1554 bytes  package.json</tspan>
-<tspan x="10" y="250"> 14.  2017-04-20 14:35:23 +0000    14758 bytes  test/html-to-react-tests.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-20 14:36:27 +0000  1491564 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-20 14:36:27 +0000     6925 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-20 14:36:27 +0000     1079 bytes  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-20 14:36:27 +0000     6224 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-20 14:36:27 +0000  1449386 bytes  dist/html-to-react.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-20 14:36:27 +0000      460 bytes  index.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-20 14:36:27 +0000     5505 bytes  lib/camel-case-attribute-names.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-20 14:36:27 +0000      107 bytes  lib/is-valid-node-definitions.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-20 14:36:27 +0000     2335 bytes  lib/parser.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-20 14:36:27 +0000     1007 bytes  lib/process-node-definitions.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-20 14:36:27 +0000      510 bytes  lib/processing-instructions.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-20 14:36:27 +0000      144 bytes  lib/should-process-node-definitions.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-20 14:36:27 +0000     1570 bytes  lib/utils.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-20 14:36:27 +0000     1554 bytes  package.json</tspan>
+<tspan x="10" y="250"> 14.  2017-04-20 14:36:27 +0000    14758 bytes  test/html-to-react-tests.js</tspan>
 </text>
 </svg>
