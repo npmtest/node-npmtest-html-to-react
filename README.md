@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-to-react/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-html-to-react/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-html-to-react/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-html-to-react/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-to-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-to-react/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-html-to-react/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-html-to-react/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-to-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-to-react/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-html-to-react/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-html-to-react/build/coverage.html/index.html)
 
@@ -35,30 +35,12 @@
 ```json
 
 {
-    "name": "html-to-react",
-    "version": "1.2.7",
-    "description": "A lightweight library that converts raw HTML to a React DOM structure.",
-    "main": "index.js",
-    "scripts": {
-        "test": "./node_modules/.bin/eslint . && ./node_modules/mocha/bin/mocha",
-        "test-coverage": "./node_modules/.bin/eslint . && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-        "test-html-coverage": "./node_modules/.bin/eslint . && istanbul cover ./node_modules/mocha/bin/_mocha; open coverage/lcov-report/index.html"
+    "author": {
+        "name": "Arve Knudsen, Mike Nikles"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aknuds1/html-to-react.git"
-    },
-    "keywords": [
-        "react",
-        "react-component",
-        "html"
-    ],
-    "author": "Arve Knudsen, Mike Nikles",
-    "license": "MIT",
     "bugs": {
         "url": "https://github.com/aknuds1/html-to-react/issues"
     },
-    "homepage": "https://github.com/aknuds1/html-to-react",
     "config": {
         "blanket": {
             "pattern": [
@@ -76,9 +58,7 @@
         "ramda": "^0.23.0",
         "underscore.string.fp": "^1.0.4"
     },
-    "peerDependencies": {
-        "react": "^15.0"
-    },
+    "description": "A lightweight library that converts raw HTML to a React DOM structure.",
     "devDependencies": {
         "coveralls": "^2.11",
         "eslint": "^3.7.0",
@@ -87,7 +67,48 @@
         "mocha-lcov-reporter": "^1.2.0",
         "react": "^15.0",
         "react-dom": "^15.0"
-    }
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "b50b4737d020d728f1b4823543b82148372808dd",
+        "tarball": "https://registry.npmjs.org/html-to-react/-/html-to-react-1.2.7.tgz"
+    },
+    "gitHead": "a73d19b80c56326677e96097d8fab3f5c46c5888",
+    "homepage": "https://github.com/aknuds1/html-to-react",
+    "keywords": [
+        "react",
+        "react-component",
+        "html"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "arian.hosseinzadeh"
+        },
+        {
+            "name": "arve.knudsen"
+        },
+        {
+            "name": "mikenikles"
+        }
+    ],
+    "name": "html-to-react",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "react": "^15.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aknuds1/html-to-react.git"
+    },
+    "scripts": {
+        "test": "eslint . && ./node_modules/mocha/bin/mocha",
+        "test-coverage": "eslint . && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+        "test-html-coverage": "eslint . && istanbul cover ./node_modules/mocha/bin/_mocha; open coverage/lcov-report/index.html"
+    },
+    "version": "1.2.7",
+    "bin": {}
 }
 ```
 
